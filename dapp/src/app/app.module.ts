@@ -24,6 +24,8 @@ import { HomeComponent } from './home/home.component';
 import { CoinsComponent } from './Coins/Coins.component';
 import { EnergyComponent } from './Energy/Energy.component';
 import { EnergyListingComponent } from './EnergyListing/EnergyListing.component';
+//import { WeeklyData } from './WeeklyData/WeeklyData.component';
+//import { MonthlyData } from './MonthlyData/MonthlyData.component';
 
 import { UserComponent } from './User/User.component';
 
@@ -42,6 +44,8 @@ import { GiveEnergyComponent } from './GiveEnergy/GiveEnergy.component';
     UserComponent,
     ProduceEnergyComponent,
     UseEnergyComponent,
+    //WeeklyData,
+    //MonthlyData,
     RequestEnergyComponent,
     GiveEnergyComponent
   ],

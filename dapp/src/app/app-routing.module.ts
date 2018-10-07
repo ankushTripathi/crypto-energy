@@ -27,7 +27,8 @@ import { ProduceEnergyComponent } from './ProduceEnergy/ProduceEnergy.component'
 import { UseEnergyComponent } from './UseEnergy/UseEnergy.component';
 import { RequestEnergyComponent } from './RequestEnergy/RequestEnergy.component';
 import { GiveEnergyComponent } from './GiveEnergy/GiveEnergy.component';
-
+//import { WeeklyData } from './WeeklyData/WeeklyData.component';
+//import { MonthlyData } from './MonthlyData/MonthlyData.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'Coins', component: CoinsComponent },
@@ -38,6 +39,8 @@ const routes: Routes = [
   { path: 'UseEnergy', component: UseEnergyComponent },
   { path: 'RequestEnergy', component: RequestEnergyComponent },
   { path: 'GiveEnergy', component: GiveEnergyComponent },
+  //{ path: 'WeeklyData', component: WeeklyDataComponent },
+  //{ path: 'MonthlyData', component: MonthlyDataComponent },
   { path: '**', redirectTo: '' }
 ];
 
